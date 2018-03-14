@@ -20,6 +20,8 @@ namespace Examples
 
         public void ResetAllMarks()
         {
+            if (Marks == null)
+                return;
             foreach (Mark mark in Marks)
                 mark.Value = 0;
         }

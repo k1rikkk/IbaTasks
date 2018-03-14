@@ -38,5 +38,13 @@ namespace Tests
             student.ResetAllMarks();
             Assert.IsTrue(student.Marks[0].Value == 0 && student.Marks[1].Value == 0 && student.Marks[2].Value == 0);
         }
+
+        [TestMethod]
+        public void GetAvgMarks_Empty_Nan()
+        {
+            Student s1 = new Student();
+            Student s2 = new Student { Marks = new Mark[] { } };
+            Assert.IsTrue(float.IsNaN(s1.GetAvgMark()) && float.IsNaN(s2.GetAvgMark()));
+        }
     }
 }

@@ -15,7 +15,8 @@ namespace Examples
         public string ResidenceAddress { get; set; }
         public Mark[] Marks { get; set; }
         
-        public float GetAvgMark() => Marks.Sum(m => m.Value) / (float)Marks.Count();
+        public float GetAvgMark() 
+            => Marks == null || Marks.Count() == 0 ? float.NaN : Marks.Sum(m => m.Value) / (float)Marks.Count();
 
         public void ResetAllMarks()
         {

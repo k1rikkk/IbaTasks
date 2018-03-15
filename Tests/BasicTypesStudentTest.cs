@@ -5,7 +5,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 namespace Tests
 {
     [TestClass]
-    public class StudentTest
+    public class BasicTypesStudentTest
     {
         [TestMethod]
         public void GetAvgMarks_Avg()

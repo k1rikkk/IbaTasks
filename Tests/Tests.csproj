@@ -49,6 +49,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BasicTypesStudentTest.cs" />
+    <Compile Include="FrameworkFundamentalsTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="VariablesAndStatementsStudentTest.cs" />
   </ItemGroup>
@@ -56,6 +57,10 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\FrameworkFundamentals\FrameworkFundamentals.csproj">
+      <Project>{27DFD892-9437-46F5-BBD7-EEFF568935FF}</Project>
+      <Name>FrameworkFundamentals</Name>
+    </ProjectReference>
     <ProjectReference Include="..\ParametersAndStatements\ParametersAndStatements.csproj">
       <Project>{2b9c8b8c-8aa6-4ed2-8b60-134369d85863}</Project>
       <Name>ParametersAndStatements</Name>

@@ -13,6 +13,7 @@ namespace CreatingTypes
         public string Email { get; set; }
         public string Address { get; set; }
 
-        public List<Order> Orders => Shop.Orders.Where(o => o.Customer.Equals(this)).ToList();
+        public List<Order> Orders => Shop?.Orders.Where(o => o.Customer.Equals(this)).ToList() ?? new List<Order>();
+        public decimal TotalCost => Orders.Sum(o => o.TotalCost);
     }
 }

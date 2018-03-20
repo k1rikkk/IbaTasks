@@ -12,6 +12,6 @@ namespace CreatingTypes
         public string Details { get; set; }
         public decimal Cost { get; set; }
 
-        public List<Order> Orders => Shop.Orders.Where(o => o.Product.Equals(this)).ToList();
+        public List<Order> Orders => Shop?.Orders.Where(o => o.Product.Equals(this)).ToList() ?? new List<Order>();
     }
 }

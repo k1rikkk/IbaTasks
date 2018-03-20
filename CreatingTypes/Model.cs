@@ -10,6 +10,6 @@ namespace CreatingTypes
     {
         public int Id { get; set; }
         public bool Equals(Model other) => Id == other.Id;
-        public Shop Shop { get; set; }
+        public IShop Shop { get; set; }
     }
 }

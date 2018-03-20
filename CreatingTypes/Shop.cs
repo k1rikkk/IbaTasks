@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace CreatingTypes
 {
-    public class Shop : Model
+    public class Shop : IShop
     {
         protected List<Customer> customers;
         protected List<Product> products;
@@ -39,12 +39,11 @@ namespace CreatingTypes
                 throw new ArgumentException($"{nameof(order.Product)}: no such product in shop");
             if (order.Customer == null)
                 throw new ArgumentNullException($"{nameof(order.Customer)}: customer can\'t be null");
-        }
-
-        public void RemoveCustomer(Customer customer)
-        {
-            if (customers.Contains(customer))
-                customers.Remove(customer);
+            if (order.Product == null)
+                throw new ArgumentNullException($"{nameof(order.Customer)}: product can\'t be null");
+            order.Id = orders.Max(o => o.Id) + 1;
+            order.Shop = this;
+            orders.Add(order);
         }
     }
 }

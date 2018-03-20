@@ -48,6 +48,7 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CreatingTypesTest.cs" />
     <Compile Include="BasicTypesStudentTest.cs" />
     <Compile Include="FrameworkFundamentalsTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -57,6 +58,10 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\CreatingTypes\CreatingTypes.csproj">
+      <Project>{0DDF5816-CA66-47DA-822C-0CE659E6D5B2}</Project>
+      <Name>CreatingTypes</Name>
+    </ProjectReference>
     <ProjectReference Include="..\FrameworkFundamentals\FrameworkFundamentals.csproj">
       <Project>{27DFD892-9437-46F5-BBD7-EEFF568935FF}</Project>
       <Name>FrameworkFundamentals</Name>

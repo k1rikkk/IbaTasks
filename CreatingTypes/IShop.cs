@@ -9,5 +9,6 @@ namespace CreatingTypes
     public interface IShop
     {
         IReadOnlyList<Order> Orders { get; }
+        IReadOnlyList<OrderProduct> OrderProducts { get; }
     }
 }

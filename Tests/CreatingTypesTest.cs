@@ -24,6 +24,11 @@ namespace Tests
                             , new OrderProduct { Product = shop.Products[1], Amount = 2 }).Status = OrderStatus.Purchased;
             return shop;
         }
+        
+        public class Generic<T>
+        {
+            public T Field;
+        }
 
         [TestMethod]
         public void Shop_FK_NoNullRefException()

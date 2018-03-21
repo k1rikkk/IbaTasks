@@ -48,6 +48,7 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AnimalTest.cs" />
     <Compile Include="CreatingTypesTest.cs" />
     <Compile Include="BasicTypesStudentTest.cs" />
     <Compile Include="FrameworkFundamentalsTest.cs" />
@@ -61,6 +62,10 @@
     <ProjectReference Include="..\CreatingTypes\CreatingTypes.csproj">
       <Project>{0DDF5816-CA66-47DA-822C-0CE659E6D5B2}</Project>
       <Name>CreatingTypes</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Encapsulation\Encapsulation.csproj">
+      <Project>{EF4EB703-C8D8-4F10-B8A0-B96F2EB95090}</Project>
+      <Name>Encapsulation</Name>
     </ProjectReference>
     <ProjectReference Include="..\FrameworkFundamentals\FrameworkFundamentals.csproj">
       <Project>{27DFD892-9437-46F5-BBD7-EEFF568935FF}</Project>

@@ -44,9 +44,14 @@
     <Compile Include="Cat.cs" />
     <Compile Include="Chicken.cs" />
     <Compile Include="Dog.cs" />
-    <Compile Include="Donkey.cs" />
+    <Compile Include="Camel.cs" />
     <Compile Include="Duck.cs" />
+    <Compile Include="Group.cs" />
     <Compile Include="Horse.cs" />
+    <Compile Include="IAnimal.cs" />
+    <Compile Include="ICarrying.cs" />
+    <Compile Include="IDomesticMammal.cs" />
+    <Compile Include="IPoultry.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

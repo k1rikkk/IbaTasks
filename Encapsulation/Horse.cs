@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace Encapsulation
 {
-    public class Horse : Animal
+    public class Horse : Animal, ICarrying
     {
+        public float Payload { get; set; }
+        public float MaxSpeed { get; set; }
     }
 }

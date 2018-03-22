@@ -6,9 +6,8 @@ using System.Threading.Tasks;
 
 namespace Encapsulation
 {
-    public class Duck : Animal, IPoultry
+    public interface ICarrying : IAnimal
     {
-        public bool CanFly { get; set; }
-        public float WingSpan { get; set; }
+        float Payload { get; set; }
     }
 }

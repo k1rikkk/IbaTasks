@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Encapsulation", "Encapsulat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inheritance", "Inheritance\Inheritance.csproj", "{886F5CF8-24F6-43E3-9183-0A645B88664E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reflection", "Reflection\Reflection.csproj", "{88089FB4-3FD5-47EC-916A-5176AB1964B0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{886F5CF8-24F6-43E3-9183-0A645B88664E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{886F5CF8-24F6-43E3-9183-0A645B88664E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{886F5CF8-24F6-43E3-9183-0A645B88664E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88089FB4-3FD5-47EC-916A-5176AB1964B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88089FB4-3FD5-47EC-916A-5176AB1964B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88089FB4-3FD5-47EC-916A-5176AB1964B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88089FB4-3FD5-47EC-916A-5176AB1964B0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

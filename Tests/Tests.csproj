@@ -54,6 +54,7 @@
     <Compile Include="FrameworkFundamentalsTest.cs" />
     <Compile Include="InheritanceTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ReflectionTest.cs" />
     <Compile Include="VariablesAndStatementsStudentTest.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -79,6 +80,10 @@
     <ProjectReference Include="..\ParametersAndStatements\ParametersAndStatements.csproj">
       <Project>{2b9c8b8c-8aa6-4ed2-8b60-134369d85863}</Project>
       <Name>ParametersAndStatements</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Reflection\Reflection.csproj">
+      <Project>{88089FB4-3FD5-47EC-916A-5176AB1964B0}</Project>
+      <Name>Reflection</Name>
     </ProjectReference>
     <ProjectReference Include="..\Task1\BasicTypes.csproj">
       <Project>{6DE52E26-4D73-4F8B-95D9-CFDCFE08DE09}</Project>

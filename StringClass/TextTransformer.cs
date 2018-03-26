@@ -17,10 +17,10 @@ namespace StringClass
         {
             if (string.IsNullOrEmpty(val))
                 return Null;
-            string result = "";
+            StringBuilder result = new StringBuilder();
             foreach (char c in val)
-                result += char.ToUpper(c);
-            return result;
+                result.Append(char.ToUpper(c));
+            return result.ToString();
         }
     }
 }

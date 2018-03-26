@@ -55,6 +55,7 @@
     <Compile Include="InheritanceTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ReflectionTest.cs" />
+    <Compile Include="StringClassTest.cs" />
     <Compile Include="VariablesAndStatementsStudentTest.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -84,6 +85,10 @@
     <ProjectReference Include="..\Reflection\Reflection.csproj">
       <Project>{88089FB4-3FD5-47EC-916A-5176AB1964B0}</Project>
       <Name>Reflection</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\StringClass\StringClass.csproj">
+      <Project>{3EE97F60-AFE4-4E83-B04F-833EC8FFA348}</Project>
+      <Name>StringClass</Name>
     </ProjectReference>
     <ProjectReference Include="..\Task1\BasicTypes.csproj">
       <Project>{6DE52E26-4D73-4F8B-95D9-CFDCFE08DE09}</Project>
